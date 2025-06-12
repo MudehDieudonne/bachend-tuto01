@@ -1,0 +1,6 @@
+### TEST GET HOME PAGE
+
+GET http://localhost:8282/
+
+###TEST GET /dashboard
+GET http://localhost:8282/dashboard
