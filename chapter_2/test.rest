@@ -1,0 +1,25 @@
+### TEST GET HOME PAGE
+
+GET http://localhost:8282/
+
+###TEST GET /dashboard
+GET http://localhost:8282/dashboard
+
+### DAT ENPOINT
+
+GET http://localhost:8282/api/data
+
+### DATA enpoint for creating user
+
+POST http://localhost:8282/api/data
+Content-Type: application/json
+
+{
+    "name": "Daniel",
+    "age": "31",
+    "height": "5ft 80"
+}
+
+### DELETe endpoint
+
+DELETE  http://localhost:8282/api/data
